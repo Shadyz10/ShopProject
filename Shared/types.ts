@@ -32,7 +32,7 @@ export interface IProductEntity extends IProduct, RowDataPacket {
   product_id: string;
 }
 
-export interface IProductSearchFilter {
+export interface IProductFilterPayload {
   title?: string;
   description?: string;
   priceFrom?: number;
